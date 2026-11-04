@@ -1,0 +1,56 @@
+{
+  "benchmind/__init__.py": {
+    "mtime": 1793096952.9295158,
+    "seen": 1793573303.5608234,
+    "ast_hash": "3d2c99df76ea1a9c985195f7d3754907",
+    "semantic_hash": ""
+  },
+  "benchmind/agent_loop.py": {
+    "mtime": 1793097010.9958253,
+    "seen": 1793573303.5608234,
+    "ast_hash": "86d373f592b565e0039205249fe41370",
+    "semantic_hash": ""
+  },
+  "benchmind/cli.py": {
+    "mtime": 1793097012.9099693,
+    "seen": 1793573303.5608234,
+    "ast_hash": "4036c5ed54afdaf48153553fa739d522",
+    "semantic_hash": ""
+  },
+  "benchmind/dsp_repair.py": {
+    "mtime": 1793096952.9305174,
+    "seen": 1793573303.5608234,
+    "ast_hash": "d299a10835c043e89695f618d6457f0d",
+    "semantic_hash": ""
+  },
+  "benchmind/telemetry.py": {
+    "mtime": 1793096952.9305174,
+    "seen": 1793573303.5608234,
+    "ast_hash": "239bdd1996bf0c0f8b0bf8e92fc52080",
+    "semantic_hash": ""
+  },
+  "evidence/benchmind-verification.json": {
+    "mtime": 1793097015.9325821,
+    "seen": 1793573303.5608234,
+    "ast_hash": "d1e6a04a76db4db7033b369316786eaa",
+    "semantic_hash": ""
+  },
+  "pyproject.toml": {
+    "mtime": 1793096969.9119303,
+    "seen": 1793573303.5608234,
+    "ast_hash": "2f2d7b8ee0bdec06d4c9947b4be56d06",
+    "semantic_hash": ""
+  },
+  "tests/test_benchmind.py": {
+    "mtime": 1793096952.9335198,
+    "seen": 1793573303.5608234,
+    "ast_hash": "58183015671e27936dbfbb1225aec67d",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1793096971.7469969,
+    "seen": 1793573303.5608234,
+    "ast_hash": "434cf838fda81cfa1e3605598d26ef83",
+    "semantic_hash": ""
+  }
+}

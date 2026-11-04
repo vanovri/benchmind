@@ -1,0 +1,21 @@
+{
+  "name": "benchmind",
+  "version": "0.1.0",
+  "description": "Autonomous Multimodal Hardware & Signal Diagnostics Agent (Meta Global AI Developer Hackathon) ? 220-call live benchmark telemetry",
+  "type": "module",
+  "scripts": {
+    "test": "python -m pytest -v",
+    "evaluate": "node tests/analyze_benchmarks.mjs",
+    "analyze": "node tests/analyze_benchmarks.mjs"
+  },
+  "keywords": [
+    "benchmind",
+    "muse-spark-open",
+    "telemetry"
+  ],
+  "author": "Ardhya Novri Ramadhan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

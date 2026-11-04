@@ -1,0 +1,11 @@
+{
+  "0": "run_autonomous_loop",
+  "1": "test_benchmind.py",
+  "2": "BiquadDF2T",
+  "3": "telemetry.py",
+  "4": "agent_loop.py",
+  "5": "dsp_repair.py",
+  "6": "BenchMind — Autonomous Multimodal Hardware & Signal Diagnostics Agent",
+  "7": "__init__.py",
+  "8": "benchmind"
+}

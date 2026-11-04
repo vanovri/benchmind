@@ -1,0 +1,128 @@
+{
+  "benchmark": "Meta Muse Spark Open",
+  "project": "BenchMind ? Autonomous Multimodal Hardware & Signal Diagnostics Agent",
+  "track": "Indie Developer Track ? Push the Frontier (Meta Global AI Developer Hackathon)",
+  "dataset": {
+    "total_calls": 220,
+    "stress_benchmark": "docs/stress_benchmark.json",
+    "local_live_matrix": "docs/local_live_matrix.json",
+    "providers": [
+      {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/muse-spark-open"
+      },
+      {
+        "provider": "baseten",
+        "model": "meta-models/muse-spark-open-1026"
+      }
+    ],
+    "suites": [
+      "signal_diagnostics",
+      "uart_recovery",
+      "dsp_filter_synthesis",
+      "multimodal_grounding",
+      "sandbox_verification"
+    ],
+    "languages": [
+      "en",
+      "id"
+    ],
+    "complexities": [
+      "single-flag",
+      "multi-flag",
+      "withheld-E4"
+    ],
+    "live": true,
+    "complete": true,
+    "generated_at": "2026-11-02T01:05:24.356822+00:00",
+    "status": "complete"
+  },
+  "providers": {
+    "fireworks": {
+      "model": "accounts/fireworks/models/muse-spark-open",
+      "count": 110,
+      "speculative_decoding": false
+    },
+    "baseten": {
+      "model": "meta-models/muse-spark-open-1026",
+      "count": 110,
+      "speculative_decoding": true,
+      "speculative_decoding_acceptance_tracking": "accepted_prediction_tokens / completion_tokens"
+    }
+  },
+  "suites": [
+    {
+      "name": "signal_diagnostics",
+      "count": 44
+    },
+    {
+      "name": "uart_recovery",
+      "count": 44
+    },
+    {
+      "name": "dsp_filter_synthesis",
+      "count": 44
+    },
+    {
+      "name": "multimodal_grounding",
+      "count": 44
+    },
+    {
+      "name": "sandbox_verification",
+      "count": 44
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "count": 110,
+      "name": "English"
+    },
+    {
+      "code": "id",
+      "count": 110,
+      "name": "Indonesian"
+    }
+  ],
+  "complexities": [
+    {
+      "name": "single-flag",
+      "count": 74
+    },
+    {
+      "name": "multi-flag",
+      "count": 73
+    },
+    {
+      "name": "withheld-E4",
+      "count": 73
+    }
+  ],
+  "telemetry": {
+    "latency_tracking": true,
+    "reasoning_token_efficiency": "reasoning_tokens / total_tokens",
+    "speculative_decoding_acceptance_rate": "accepted_prediction_tokens / completion_tokens",
+    "citation_audit": {
+      "evidenceIds": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "findingIds": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "hallucination_check": "0% hallucinated IDs required",
+      "withheld_E4_compliance": "100% compliance when E4 is null"
+    }
+  },
+  "status": "complete",
+  "generated_at": "2026-11-02T01:05:24.356857+00:00",
+  "version": "1.0.0"
+}
