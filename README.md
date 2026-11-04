@@ -11,11 +11,13 @@
 - **Bonus Targets**: *Best Build on Meta Open Weight Models (`Muse Spark Open`)*, *Best Agentic Use-Case*, *Best Creative Build (`Muse Image` + `SAM 3.1`)*
 
 ## 🎬 3-Minute Hackathon Pitch & Demo Video (`v0.2.0`)
+- **YouTube Pitch & Demo Video**: [https://www.youtube.com/watch?v=-cYkUuA8gCM](https://www.youtube.com/watch?v=-cYkUuA8gCM) (`https://youtu.be/-cYkUuA8gCM`)
+- **Interactive Bench Dashboard (Vercel Live)**: [https://ardhyanovri.my.id/assets/benchmind-dashboard](https://ardhyanovri.my.id/assets/benchmind-dashboard)
 - **Direct MP4 (Vercel CDN)**: [https://ardhyanovri.my.id/assets/benchmind-v02-hackathon-demo-1920x1080.mp4](https://ardhyanovri.my.id/assets/benchmind-v02-hackathon-demo-1920x1080.mp4)
 - **GitHub Release MP4 (`v0.2.0`)**: [https://github.com/vanovri/benchmind/releases/download/v0.2.0/benchmind-v02-hackathon-demo-1920x1080.mp4](https://github.com/vanovri/benchmind/releases/download/v0.2.0/benchmind-v02-hackathon-demo-1920x1080.mp4)
 - **SRT Captions**: [`docs/benchmind-v02-hackathon-demo-1920x1080.srt`](docs/benchmind-v02-hackathon-demo-1920x1080.srt)
 
-[![BenchMind v0.2.0 Demo Contact Sheet](docs/benchmind-v02-hackathon-demo-1920x1080_sheet.png)](https://github.com/vanovri/benchmind/releases/download/v0.2.0/benchmind-v02-hackathon-demo-1920x1080.mp4)
+[![BenchMind v0.2.0 Demo Contact Sheet](docs/benchmind-v02-hackathon-demo-1920x1080_sheet.png)](https://www.youtube.com/watch?v=-cYkUuA8gCM)
 
 ## Overview
 BenchMind is an autonomous multimodal diagnostics and repair agent for embedded hardware engineers working with 4 kHz ADC signals and binary UART telemetry streams (`STM32F411CEU6` / `ESP32`).
