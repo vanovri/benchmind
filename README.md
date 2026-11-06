@@ -40,8 +40,19 @@ Full benchmark telemetry and statistical breakdown are available in [`docs/provi
 - **220-Call Multilingual (EN/ID) Benchmark (`tests/analyze_benchmarks.mjs`)**: Evaluated across 5 suites (`S1` Standard Fault Triage, `S2` Adversarial Evidence Withholding, `S3` Contradictory Telemetry Stress, `S4` Bilingual Indonesian/English Lab Commands, `S5` Multi-Fault Cascade Synthesis) with **0% hallucinated evidence IDs** (`E1-E6`, `F1-F5`).
 
 ## Quick Start
-```powershell
-cd C:\Users\ardhy\Projects\benchmind
-C:\Python314\python.exe -m pytest -q
-C:\Python314\python.exe -m benchmind.cli --output evidence/benchmind-verification.json --dashboard web/index.html
+
+Use Python 3.10 or newer. From a fresh checkout, create a virtual environment in the repository root.
+
+```sh
+python -m venv .venv
 ```
+
+Activate it in PowerShell with `.\.venv\Scripts\Activate.ps1` or in Bash with `source .venv/bin/activate`.
+
+```powershell
+python -m pip install -e ".[test]"
+python -m pytest -q
+python -m benchmind.cli --dashboard build/benchmind.html --output build/benchmind-verification.json
+```
+
+Open `build/benchmind.html` in a browser. The command uses simulated telemetry and runs without an API key.
